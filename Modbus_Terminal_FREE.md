@@ -1,66 +1,57 @@
-## Privacy Policy
+# Privacy Policy — Modbus Terminal
 
-Edodm85 built the Modbus Terminal FREE app as an Ad Supported app. This SERVICE is provided by Edodm85 at no cost and is intended for use as is.
+Last updated: September 26, 2026
 
-This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
+This privacy policy describes how the Android app **Modbus Terminal** (package `com.edodm85.modbusterminal`), developed by edodm85, handles your information.
 
-If you choose to use my Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that I collect is used for providing and improving the Service. I will not use or share your information with anyone except as described in this Privacy Policy.
+## Data that stays on your device
 
-The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at Modbus Terminal FREE unless otherwise defined in this Privacy Policy.
+Everything you do with Modbus is processed only on your device and is never sent to the developer:
+- server addresses and ports, serial settings
+- the Modbus requests you send and the values you read or write
+- the console log
 
-**Information Collection and Use**
+If you start log recording, the log is saved as a text file in the `Download/Modbus Terminal` folder of your device. It stays there until you delete it.
 
-For a better experience, while using our Service, I may require you to provide us with certain personally identifiable information. The information that I request will be retained on your device and is not collected by me in any way.
+The app has no user accounts and does not ask for your name, email address, contacts, photos, files or precise location.
 
-The app does use third party services that may collect information used to identify you.
+## Data collected by third-party services
 
-Link to privacy policy of third party service providers used by the app
+The app uses these Google services, which collect some data automatically. The data is encrypted in transit and is not sold or shared by the developer with third parties.
 
-*   [Google Play Services](https://www.google.com/policies/privacy/)
-*   [AdMob](https://support.google.com/admob/answer/6128543?hl=en)
-*   [Firebase Analytics](https://firebase.google.com/policies/analytics)
-*   [Fabric](https://fabric.io/privacy)
-*   [Crashlytics](http://try.crashlytics.com/terms/privacy-policy.pdf)
+- **Firebase Crashlytics**: when the app crashes, it sends the crash report (stack trace, app state and device information such as model and Android version) and a random installation identifier. Purpose: find and fix bugs.
+- **Google Analytics for Firebase**: collects anonymous usage statistics:
+  - screens viewed and sessions;
+  - in-app purchase events;
+  - a random app-instance identifier (the Android advertising ID is not collected);
+  - approximate location derived from the IP address.
 
-**Log Data**
+  Purpose: understand how the app is used and improve it. The app does not show advertising.
+- **Google Play Billing**: the optional one-time purchase is processed by Google Play. The developer never receives your payment details.
 
-I want to inform you that whenever you use my Service, in a case of an error in the app I collect data and information (through third party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing my Service, the time and date of your use of the Service, and other statistics.
+The privacy policies of these services are available at:
+- https://firebase.google.com/support/privacy
+- https://policies.google.com/privacy
 
-**Cookies**
+## Permissions
 
-Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device's internal memory.
+- **Internet, network state, local network**: to connect to Modbus TCP devices.
+- **USB**: to talk to USB-serial adapters for Modbus RTU.
+- **Notifications and foreground service**: to keep the connection open while the app is in the background, with a notification you can use to close it.
+- **Billing**: for the optional in-app purchase.
 
-This Service does not use these “cookies” explicitly. However, the app may use third party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.
+## Children
 
-**Service Providers**
+The app is a technical tool and is not directed to children under 13. It does not knowingly collect data from children.
 
-I may employ third-party companies and individuals due to the following reasons:
+## Deleting your data
 
-*   To facilitate our Service;
-*   To provide the Service on our behalf;
-*   To perform Service-related services; or
-*   To assist us in analyzing how our Service is used.
+The app stores no data on the developer's servers. To request deletion of the data collected by Firebase for your installation, write to the email address below. You can also clear the app data or uninstall the app to reset its identifiers.
 
-I want to inform users of this Service that these third parties have access to your Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.
+## Changes
 
-**Security**
+This policy may be updated. The latest version is always available at this address.
 
-I value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and I cannot guarantee its absolute security.
+## Contact
 
-**Links to Other Sites**
-
-This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by me. Therefore, I strongly advise you to review the Privacy Policy of these websites. I have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
-
-**Children’s Privacy**
-
-These Services do not address anyone under the age of 13\. I do not knowingly collect personally identifiable information from children under 13\. In the case I discover that a child under 13 has provided me with personal information, I immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact me so that I will be able to do necessary actions.
-
-**Changes to This Privacy Policy**
-
-I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately after they are posted on this page.
-
-**Contact Us**
-
-If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me.
-
-This privacy policy page was created at [privacypolicytemplate.net](https://privacypolicytemplate.net) and modified/generated by [App Privacy Policy Generator](https://app-privacy-policy-generator.firebaseapp.com/)
+edodm.project@gmail.com
